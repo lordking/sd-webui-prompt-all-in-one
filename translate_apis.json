@@ -1979,42 +1979,29 @@
                     ],
                     "config": [
                         {
-                            "key": "api_base",
-                            "title": "API Base",
-                            "desc": "<ul><li>https://api.openai.com/v1</li><li>https://api.openai-proxy.com/v1</li><li>https://chatai.1rmb.tk/v1</li><li>...</li></ul>",
+                            "key": "azure_endpoint",
+                            "title": "Endpoint",
+                            "desc": "Azure OpenAI终结点, 依次进入Azure云->Azure OpenAI>某个资源>密钥和终结点，获得终结点",
                             "type": "input",
-                            "default": "https://api.openai.com/v1"
+                            "default": ""
                         },
                         {
                             "key": "api_key",
                             "title": "API Key",
+                            "desc": "Azure OpenAI密钥，依次进入Azure云->Azure OpenAI>某个资源>密钥和终结点，获得密钥",
                             "type": "input",
                             "privacy": true
                         },
                         {
-                            "key": "model",
-                            "title": "Model",
+                            "key": "deployment_name",
+                            "title": "Deployment Name",
+                            "desc": "部署名，依次进入Azure云->Azure OpenAI>某个资源>模型部署->管理部署，创建部署名。部署名与模型名称是捆绑的，选择部署名就是选择模型。",
                             "type": "select",
-                            "default": "gpt-3.5-turbo",
+                            "default": "gpt-35-turbo-16k",
                             "options": [
-                                "gpt-3.5-turbo",
-                                "gpt-3.5-turbo-16k",
-                                "gpt-3.5-turbo-0301",
-                                "gpt-3.5-turbo-0613",
-                                "gpt-3.5-turbo-16k-0613",
-                                "gpt-3.5-turbo-1106",
-                                "gpt-3.5-turbo-instruct",
-                                "text-davinci-003",
-                                "text-davinci-002",
-                                "code-davinci-002",
+                                "gpt-35-turbo-16k",
                                 "gpt-4",
-                                "gpt-4-0314",
-                                "gpt-4-0613",
-                                "gpt-4-32k",
-                                "gpt-4-32k-0314",
-                                "gpt-4-32k-0613",
-                                "gpt-4-1106-preview",
-                                "gpt-4-vision-preview"
+                                "gpt-4-32k"
                             ]
                         }
                     ]
