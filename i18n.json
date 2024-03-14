@@ -181,7 +181,9 @@
                 "is_remove_lora_before_comma": "是否去除Lora前面的逗号。<br/>勾选后Lora输出为“aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd”。<br/>取消勾选Lora输出为“aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd”。",
                 "is_remove_lora_after_comma": "是否去除Lora后面的逗号。<br/>勾选后Lora输出为“aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd”。<br/>取消勾选Lora输出为“aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd”。",
                 "is_use_novel_ai_weight_symbol": "是否使用NovelAI的权重符号。<br/>勾选后权重符号 () 将变为 {}",
-                "is_remove_before_line_comma": "是否去除换行前面的逗号。<br/>勾选后输出为“aaa, bbb<br/>ccc”。<br/>取消勾选输出为“aaa, bbb,<br/>ccc”。"
+                "is_remove_before_line_comma": "是否去除换行前面的逗号。<br/>勾选后输出为“aaa, bbb<br/>ccc”。<br/>取消勾选输出为“aaa, bbb,<br/>ccc”。",
+                "auto_load_webui_prompt": "自动加载WebUI提示词变动。<br/>勾选后，当WebUI中提示词输入框的内容变动时，插件会自动加载关键词解析并格式化。<br/>未勾选，当WebUI中提示词输入框的内容变动时，需要手动点击加载提示词按钮。",
+                "load_webui_prompt": "加载WebUI提示词"
             }
         },
         {
@@ -364,7 +366,9 @@
                 "is_remove_lora_before_comma": "是否去除Lora前面的逗號。<br/>勾選後Lora輸出為「aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd」。<br/>取消勾選Lora輸出為「aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd」。",
                 "is_remove_lora_after_comma": "是否去除Lora後面的逗號。<br/>勾選後Lora輸出為「aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd」。<br/>取消勾選Lora輸出為「aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd」。",
                 "is_use_novel_ai_weight_symbol": "是否使用NovelAI的權重符號。<br/>勾選後權重符號 () 將變為 {}",
-                "is_remove_before_line_comma": "是否去除換行前面的逗號。<br/>勾選後輸出為「aaa, bbb<br/>ccc」。<br/>取消勾選輸出為「aaa, bbb,<br/>ccc」。"
+                "is_remove_before_line_comma": "是否去除換行前面的逗號。<br/>勾選後輸出為「aaa, bbb<br/>ccc」。<br/>取消勾選輸出為「aaa, bbb,<br/>ccc」。",
+                "auto_load_webui_prompt": "自動加載WebUI提示詞變動。<br/>勾選後，當WebUI中提示詞輸入框的內容變動時，插件會自動加載關鍵詞解析並格式化。<br/>未勾選，當WebUI中提示詞輸入框的內容變動時，需要手動點擊加載提示詞按鈕。",
+                "load_webui_prompt": "加載WebUI提示詞"
             }
         },
         {
@@ -547,7 +551,9 @@
                 "is_remove_lora_before_comma": "是否移除Lora前面的逗號。<br/>勾選後Lora輸出為「aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd」。<br/>取消勾選Lora輸出為「aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd」。",
                 "is_remove_lora_after_comma": "是否移除Lora後面的逗號。<br/>勾選後Lora輸出為「aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd」。<br/>取消勾選Lora輸出為「aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd」。",
                 "is_use_novel_ai_weight_symbol": "是否使用NovelAI的權重符號。<br/>勾選後權重符號 () 將變為 {}",
-                "is_remove_before_line_comma": "是否移除換行前面的逗號。<br/>勾選後輸出為「aaa, bbb<br/>ccc」。<br/>取消勾選輸出為「aaa, bbb,<br/>ccc」。"
+                "is_remove_before_line_comma": "是否移除換行前面的逗號。<br/>勾選後輸出為「aaa, bbb<br/>ccc」。<br/>取消勾選輸出為「aaa, bbb,<br/>ccc」。",
+                "auto_load_webui_prompt": "自動載入WebUI提示詞變動。<br/>勾選後，當WebUI中提示詞輸入框的內容變動時，插件會自動載入關鍵詞解析並格式化。<br/>未勾選，當WebUI中提示詞輸入框的內容變動時，需要手動點擊載入提示詞按鈕。",
+                "load_webui_prompt": "載入WebUI提示詞"
             }
         },
         {
@@ -730,7 +736,9 @@
                 "is_remove_lora_before_comma": "Remove the comma before Lora or not.<br/>If selected, the Lora output will be 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'.<br/>If unselected, the Lora output will be 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_remove_lora_after_comma": "Remove the comma after Lora or not.<br/>If selected, the Lora output will be 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'.<br/>If unselected, the Lora output will be 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_use_novel_ai_weight_symbol": "Whether to use NovelAI's weight symbol.<br/>Checking this will change the weight symbol () to {}",
-                "is_remove_before_line_comma": "Whether to remove the comma before a line break.<br/>If checked, the output will be \"aaa, bbb<br/>ccc\".<br/>If unchecked, the output will be \"aaa, bbb,<br/>ccc\"."
+                "is_remove_before_line_comma": "Whether to remove the comma before a line break.<br/>If checked, the output will be \"aaa, bbb<br/>ccc\".<br/>If unchecked, the output will be \"aaa, bbb,<br/>ccc\".",
+                "auto_load_webui_prompt": "Auto-load WebUI prompt changes.<br/>When checked, the plugin will automatically load and format keyword parsing when the content of the prompt input box in WebUI changes.<br/>When unchecked, you need to manually click the load prompt button when the content of the prompt input box in WebUI changes.",
+                "load_webui_prompt": "Load WebUI prompt"
             }
         },
         {
@@ -924,7 +932,9 @@
                 "is_remove_lora_before_comma": "هل ترغب في إزالة الفاصلة قبل Lora أم لا؟<br/>إذا تم تحديده، سيكون إخراج Lora على النحو التالي 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'.<br/>إذا تم إلغاء التحديد، سيكون إخراج Lora على النحو التالي 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_remove_lora_after_comma": "هل ترغب في إزالة الفاصلة بعد Lora أم لا؟<br/>إذا تم تحديده، سيكون إخراج Lora على النحو التالي 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'.<br/>إذا تم إلغاء التحديد، سيكون إخراج Lora على النحو التالي 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_use_novel_ai_weight_symbol": "هل ترغب في استخدام رمز الوزن من NovelAI؟<br/>بعد التحقق من هذا، ستتغير رمز الوزن () إلى {}",
-                "is_remove_before_line_comma": "هل ترغب في إزالة الفاصلة قبل السطر المكتوب.<br/>إذا تم التحقق، سيكون الإخراج \"aaa، bbb<br/>ccc\".<br/>إذا لم يتم التحقق، سيكون الإخراج \"aaa، bbb،<br/>ccc\"."
+                "is_remove_before_line_comma": "هل ترغب في إزالة الفاصلة قبل السطر المكتوب.<br/>إذا تم التحقق، سيكون الإخراج \"aaa، bbb<br/>ccc\".<br/>إذا لم يتم التحقق، سيكون الإخراج \"aaa، bbb،<br/>ccc\".",
+                "auto_load_webui_prompt": "تحميل تلقائي لتغييرات تلميح واجهة المستخدم الرسومية عبر الويب.<br/>عند التحقق، سيقوم الملحق تلقائيًا بتحميل وتنسيق تحليل الكلمات الرئيسية عند تغيير محتوى مربع إدخال التلميح في واجهة المستخدم الرسومية عبر الويب.<br/>عند عدم التحقق، يتعين عليك النقر يدويًا على زر تحميل التلميح عند تغيير محتوى مربع إدخال التلميح في واجهة المستخدم الرسومية عبر الويب.",
+                "load_webui_prompt": "تحميل تلميح واجهة المستخدم الرسومية عبر الويب"
             }
         },
         {
@@ -1206,7 +1216,9 @@
                 "is_remove_lora_before_comma": "Supprimer la virgule avant Lora ou non.<br/>Si sélectionné, la sortie Lora sera 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'.<br/>Si non sélectionné, la sortie Lora sera 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_remove_lora_after_comma": "Supprimer la virgule après Lora ou non.<br/>Si sélectionné, la sortie Lora sera 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'.<br/>Si non sélectionné, la sortie Lora sera 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_use_novel_ai_weight_symbol": "Utiliser le symbole de poids de NovelAI.<br/>En cochant cette option, le symbole de poids () sera remplacé par {}",
-                "is_remove_before_line_comma": "Indique si vous souhaitez supprimer la virgule avant un saut de ligne.<br/>Si coché, la sortie sera \"aaa, bbb<br/>ccc\".<br/>Si décoché, la sortie sera \"aaa, bbb,<br/>ccc\"."
+                "is_remove_before_line_comma": "Indique si vous souhaitez supprimer la virgule avant un saut de ligne.<br/>Si coché, la sortie sera \"aaa, bbb<br/>ccc\".<br/>Si décoché, la sortie sera \"aaa, bbb,<br/>ccc\".",
+                "auto_load_webui_prompt": "Chargement automatique des modifications de l'invite WebUI.<br/>Lorsqu'il est coché, le plugin chargera automatiquement et formatera l'analyse des mots clés lorsque le contenu de la zone de saisie de l'invite dans WebUI change.<br/>Lorsqu'il n'est pas coché, vous devez cliquer manuellement sur le bouton de chargement de l'invite lorsque le contenu de la zone de saisie de l'invite dans WebUI change.",
+                "load_webui_prompt": "Charger l'invite WebUI"
             }
         },
         {
@@ -1403,7 +1415,9 @@
                 "is_remove_lora_before_comma": "Komma vor Lora entfernen oder nicht.<br/>Wenn ausgewählt, wird die Lora-Ausgabe 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd' sein.<br/>Wenn nicht ausgewählt, wird die Lora-Ausgabe 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd' sein.",
                 "is_remove_lora_after_comma": "Komma nach Lora entfernen oder nicht.<br/>Wenn ausgewählt, wird die Lora-Ausgabe 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd' sein.<br/>Wenn nicht ausgewählt, wird die Lora-Ausgabe 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd' sein.",
                 "is_use_novel_ai_weight_symbol": "Ob das Gewichtssymbol von NovelAI verwendet werden soll.<br/>Wenn diese Option aktiviert ist, wird das Gewichtssymbol () zu {} geändert",
-                "is_remove_before_line_comma": "Gibt an, ob das Komma vor einem Zeilenumbruch entfernt werden soll.<br/>Wenn ausgewählt, wird die Ausgabe \"aaa, bbb<br/>ccc\" sein.<br/>Wenn nicht ausgewählt, wird die Ausgabe \"aaa, bbb,<br/>ccc\" sein."
+                "is_remove_before_line_comma": "Gibt an, ob das Komma vor einem Zeilenumbruch entfernt werden soll.<br/>Wenn ausgewählt, wird die Ausgabe \"aaa, bbb<br/>ccc\" sein.<br/>Wenn nicht ausgewählt, wird die Ausgabe \"aaa, bbb,<br/>ccc\" sein.",
+                "auto_load_webui_prompt": "Automatisches Laden von WebUI-Prompt-Änderungen.<br/>Wenn aktiviert, lädt das Plugin automatisch die Schlüsselwort-Analyse und -Formatierung, wenn sich der Inhalt des Eingabefelds für den Prompt in der WebUI ändert.<br/>Wenn deaktiviert, müssen Sie manuell auf die Schaltfläche zum Laden des Prompts klicken, wenn sich der Inhalt des Eingabefelds für den Prompt in der WebUI ändert.",
+                "load_webui_prompt": "WebUI-Prompt laden"
             }
         },
         {
@@ -1650,7 +1664,9 @@
                 "is_remove_lora_before_comma": "Rimuovere la virgola prima di Lora o meno.<br/>Se selezionato, l'output di Lora sarà 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'.<br/>Se non selezionato, l'output di Lora sarà 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_remove_lora_after_comma": "Rimuovere la virgola dopo Lora o meno.<br/>Se selezionato, l'output di Lora sarà 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'.<br/>Se non selezionato, l'output di Lora sarà 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_use_novel_ai_weight_symbol": "Se utilizzare il simbolo di peso di NovelAI.<br/>Selezionando questa opzione, il simbolo di peso () verrà sostituito con {}",
-                "is_remove_before_line_comma": "Seleziona se rimuovere la virgola prima di un'interruzione di riga.<br/>Se selezionato, l'output sarà \"aaa, bbb<br/>ccc\".<br/>Se deselezionato, l'output sarà \"aaa, bbb,<br/>ccc\"."
+                "is_remove_before_line_comma": "Seleziona se rimuovere la virgola prima di un'interruzione di riga.<br/>Se selezionato, l'output sarà \"aaa, bbb<br/>ccc\".<br/>Se deselezionato, l'output sarà \"aaa, bbb,<br/>ccc\".",
+                "auto_load_webui_prompt": "Caricamento automatico delle modifiche dell'invito WebUI.<br/>Quando selezionato, il plugin caricherà automaticamente e formatterà l'analisi delle parole chiave quando il contenuto della casella di input dell'invito in WebUI cambia.<br/>Quando deselezionato, è necessario fare clic manualmente sul pulsante di caricamento dell'invito quando il contenuto della casella di input dell'invito in WebUI cambia.",
+                "load_webui_prompt": "Carica invito WebUI"
             }
         },
         {
@@ -1832,7 +1848,9 @@
                 "is_remove_lora_before_comma": "コンマの前にLoraを削除するかどうか。<br/>選択すると、Loraの出力は「aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd」となります。<br/>選択しない場合、Loraの出力は「aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd」となります。",
                 "is_remove_lora_after_comma": "コンマの後にLoraを削除するかどうか。<br/>選択すると、Loraの出力は「aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd」となります。<br/>選択しない場合、Loraの出力は「aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd」となります。",
                 "is_use_novel_ai_weight_symbol": "NovelAIの重み記号を使用するかどうか。<br/>このオプションを選択すると、重み記号 () が {} に変更されます",
-                "is_remove_before_line_comma": "改行の前のカンマを削除するかどうか。<br/>チェックすると、出力は「aaa, bbb<br/>ccc」となります。<br/>チェックを外すと、出力は「aaa, bbb,<br/>ccc」となります。"
+                "is_remove_before_line_comma": "改行の前のカンマを削除するかどうか。<br/>チェックすると、出力は「aaa, bbb<br/>ccc」となります。<br/>チェックを外すと、出力は「aaa, bbb,<br/>ccc」となります。",
+                "auto_load_webui_prompt": "WebUIプロンプトの変更を自動的にロードします。<br/>チェックすると、WebUIのプロンプト入力ボックスの内容が変更されたとき、プラグインはキーワードの解析とフォーマットを自動的にロードします。<br/>チェックしない場合、WebUIのプロンプト入力ボックスの内容が変更されたときに手動でプロンプトのロードボタンをクリックする必要があります。",
+                "load_webui_prompt": "WebUIプロンプトのロード"
             }
         },
         {
@@ -2039,7 +2057,9 @@
                 "is_remove_lora_before_comma": "쉼표 앞의 Lora를 제거할지 여부입니다.<br/>선택한 경우 Lora 출력은 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'가 됩니다.<br/>선택하지 않은 경우 Lora 출력은 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'가 됩니다.",
                 "is_remove_lora_after_comma": "쉼표 뒤의 Lora를 제거할지 여부입니다.<br/>선택한 경우 Lora 출력은 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'가 됩니다.<br/>선택하지 않은 경우 Lora 출력은 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'가 됩니다.",
                 "is_use_novel_ai_weight_symbol": "NovelAI의 가중치 기호를 사용하시겠습니까?<br/>이 옵션을 선택하면 가중치 기호 () 가 {} 로 변경됩니다",
-                "is_remove_before_line_comma": "줄 바꿈 앞의 쉼표를 제거할지 여부입니다.<br/>선택한 경우 출력은 \"aaa, bbb<br/>ccc\"가 됩니다.<br/>선택하지 않은 경우 출력은 \"aaa, bbb,<br/>ccc\"가 됩니다."
+                "is_remove_before_line_comma": "줄 바꿈 앞의 쉼표를 제거할지 여부입니다.<br/>선택한 경우 출력은 \"aaa, bbb<br/>ccc\"가 됩니다.<br/>선택하지 않은 경우 출력은 \"aaa, bbb,<br/>ccc\"가 됩니다.",
+                "auto_load_webui_prompt": "WebUI 프롬프트 변경 사항 자동로드.<br/>확인하면, WebUI의 프롬프트 입력란의 내용이 변경될 때 플러그인이 키워드 분석 및 형식 지정을 자동으로 로드합니다.<br/>체크하지 않으면, WebUI의 프롬프트 입력란의 내용이 변경될 때 수동으로 프롬프트 로드 버튼을 클릭해야 합니다.",
+                "load_webui_prompt": "WebUI 프롬프트 로드"
             }
         },
         {
@@ -2155,7 +2175,187 @@
         {
             "code": "pt_BR",
             "name": "Português (Brasil)",
-            "lang": {}
+            "lang": {
+                "need_api_key": "Chave API Necessária",
+                "dont_need_api_key": "Chave API Não Necessária (Instável)",
+                "prompt": "Prompt",
+                "negative_prompt": "Prompt Negativo",
+                "txt2img": "Texto para Imagem",
+                "img2img": "Imagem para Imagem",
+                "please_enter_new_keyword": "Por favor, Insira Nova Palavra-chave",
+                "local_language": "Idioma Local",
+                "increase_weight_add_parentheses": "Aumentar Peso da Palavra-chave: Adicionar ()",
+                "increase_weight_subtract_parentheses": "Aumentar Peso da Palavra-chave: Subtrair ()",
+                "decrease_weight_add_brackets": "Diminuir Peso da Palavra-chave: Adicionar []",
+                "decrease_weight_subtract_brackets": "Diminuir Peso da Palavra-chave: Subtrair []",
+                "translate_keyword_to_local_language": "Traduzir Palavra-chave para o Idioma Local",
+                "copy_to_clipboard": "Copiar para a Área de Transferência",
+                "disable_keyword": "Desativar Palavra-chave",
+                "enable_keyword": "Ativar Palavra-chave",
+                "copy_keywords_to_clipboard": "Copiar Todas as Palavras-chave para a Área de Transferência",
+                "translate_keywords_to_local_language": "Traduzir Todas as Palavras-chave para o Idioma Local",
+                "translate_keyword_to_english": "Traduzir para Inglês",
+                "translate_all_keywords_to_english": "Traduzir Todas as Palavras-chave Não-Inglês para Inglês",
+                "auto_translate_to_english": "Traduzir Automaticamente para Inglês Após Inserir Nova Palavra-chave",
+                "auto_translate_to_local_language": "Traduzir Automaticamente para o Idioma Local Após Inserir Nova Palavra-chave",
+                "translate_api": "API de Tradução",
+                "history": "Histórico",
+                "clear_history": "Limpar Histórico",
+                "clear_history_confirm": "Você tem certeza que deseja limpar o histórico?",
+                "clear_history_success": "Histórico limpo",
+                "max_history_count": "Contagem Máxima do Histórico",
+                "favorite": "Favoritos",
+                "add_to_favorite": "Adicionar aos Favoritos",
+                "remove_from_favorite": "Remover dos Favoritos",
+                "use": "Usar",
+                "click_to_edit": "Clique com o Botão Esquerdo do Mouse para Editar",
+                "drop_to_order": "Segure o Botão Esquerdo do Mouse para Arrastar e Ordenar",
+                "enter_to_save": "Pressione Enter para Salvar a Palavra-chave",
+                "enter_to_add": "Pressione Enter para Adicionar Palavra-chave",
+                "translate_api_not_found": "API de Tradução Não Encontrada",
+                "translate_language_not_support": "Idioma de Tradução Não Suportado",
+                "translate_api_not_support": "API de Tradução Não Suportada",
+                "unset_name": "Nome Não Definido",
+                "no_history": "Sem Histórico",
+                "get_history_error": "Falha ao Obter Histórico",
+                "no_favorite": "Sem Favoritos",
+                "get_favorite_error": "Falha ao Obter Favoritos",
+                "hide_default_input_box": "Ocultar Caixa de Entrada Padrão",
+                "show_default_input_box": "Mostrar Caixa de Entrada Padrão",
+                "translate_test": "Teste de Tradução",
+                "close": "Fechar",
+                "save": "Salvar",
+                "delete_all_keywords": "Deletar Todas as Palavras-chave",
+                "delete_all_keywords_confirm": "Você tem certeza que deseja deletar todas as palavras-chave?",
+                "whether_to_enable_tooltip": "Habilitar Dicas de Ferramentas para Cada Função. Se Você Já Está Familiarizado com Todas as Funções Dessa Extensão, Você Pode Desmarcar Esta Opção.",
+                "delete_all_history": "Deletar Todo o Histórico",
+                "delete_all_history_confirm": "Você tem certeza que deseja deletar todo o histórico?",
+                "please_enter_the_content_here": "Por favor, insira o conteúdo aqui",
+                "not_api_key_desc": "Interfaces de tradução gratuitas são instáveis, e nem toda interface pode ser usada no seu computador. Por favor, insira uma Chave API para usar a interface oficial estável.",
+                "setting_desc": "Configurações: API de Tradução, tradução automática, mostrar/ocultar...",
+                "line_break_character": "Caractere de quebra de linha",
+                "tagcomplete_translate_desc": "<p>Aprimore a função de tradução usando danbooru.csv na extensão {{nameTagComplete}} para alcançar o objetivo de economizar solicitações de rede e tradução precisa.</p><p>Após clicar no botão de atualizar, arquivos csv dos seguintes caminhos serão verificados: <p>extensions\\{{shortNameTagComplete}}\\tags</p><p>extensions\\{{shortName}}\\tags</p></p><p>Você pode baixar arquivos csv do repositório git: <a target='_blank' href='{{githubAssets}}/tree/main/tags'>{{nameAssets}}/tags</a>.</p>",
+                "test": "Teste",
+                "refresh": "Atualizar",
+                "not_enable": "Não Habilitado",
+                "translate_result": "O resultado da tradução de {0} é: {1}",
+                "not_found_csv_file": "Arquivo CSV não encontrado",
+                "theme_extension": "Tema: Estilo do Plugin de Extensão",
+                "is_remove_space": "Remover os espaços após cada vírgula na palavra-chave.<br/>Marcar irá remover automaticamente os espaços (difícil de ler).<br/>Desmarcar irá manter um espaço (afetando a contagem de TOKEN).",
+                "theme": "Tema",
+                "enhance": "Aprimorar",
+                "only_csv_on_auto": "A tradução automática usa apenas tradução CSV (não tradução de rede). Para usar tanto a tradução CSV quanto a de rede, clique manualmente no botão de traduzir.",
+                "one_translate_all_keywords": "Traduzir todas as palavras-chave em um clique",
+                "auto_translate": "Traduzir automaticamente após inserir novas palavras-chave",
+                "is_remove_last_comma": "Remover a última vírgula no Prompt ou não.<br/>Quando selecionado, a saída do Prompt é \"aaa,bbb,ccc\".<br/>Quando não selecionado, a saída do Prompt é \"aaa,bbb,ccc,\".",
+                "is_keep_weight_zero": "Manter o formato de palavras-chave com peso de 0 ou não.<br/>Quando selecionado, o formato da palavra-chave é mantido como \"(texto:0)\".<br/>Quando não selecionado, o formato não é mantido como \"teste\".",
+                "is_keep_weight_one": "Manter o formato de palavras-chave com peso de 1 ou não.<br/>Quando selecionado, o formato da palavra-chave é mantido como \"(texto:1)\".<br/>Quando não selecionado, o formato não é mantido como \"teste\".",
+                "prompt_format": "Formato do Prompt",
+                "tagcomplete_translate_desc2": "Selecionar o arquivo CSV errado resultará em uma tradução vazia ou '0'. Após alterar o arquivo, clique no botão de teste abaixo e verifique se o resultado traduzido é exibido corretamente no seu idioma local.",
+                "dblclick_to_disable": "Duplo clique para desativar/habilitar palavra-chave",
+                "batch_operation": "Operação em Lote",
+                "success": "Sucesso!",
+                "failed": "Falhou!",
+                "packages_desc": "Alguns pacotes do python foram detectados como não instalados ou instalados sem sucesso. Você precisa clicar para tentar reinstalá-los. Após todos os pacotes serem instalados com sucesso, todas as funções podem funcionar normalmente.<br/>Se ainda não conseguir instalar com sucesso após clicar no botão de instalar, você precisa copiar manualmente o comando e executá-lo no terminal.",
+                "installed": "Instalado",
+                "not_install": "Não Instalado",
+                "install": "Instalar",
+                "packages_installing": "Começando a instalar......Se você precisar verificar o log de instalação detalhado, por favor, vá ao console do WebUI para visualizá-lo. Após a conclusão da instalação, esta janela fechará automaticamente!",
+                "today_not_show": "Não mostrar esta janela hoje",
+                "free": "Gratuito",
+                "apply_for_free": "Solicitar uso gratuito",
+                "chatgpt_prompts_preset": "StableDiffusion é um modelo de aprendizado profundo de texto para imagem que gera imagens baseadas em prompts. Esses prompts podem especificar os elementos desejados da imagem, como a aparência de personagens, fundo, efeito de cor e iluminação, bem como o tema e estilo da imagem. Os prompts muitas vezes contêm números ponderados entre parênteses para indicar a importância ou ênfase de certos detalhes. Por exemplo, \"(obra-prima:1.5)\" indica que a qualidade da obra é muito importante. Parênteses múltiplos também têm efeitos similares. Além disso, se colchetes são usados, como \"{cabelo azul:cabelo branco:0.3}\", isso representa a fusão de cabelo azul e branco, com cabelo azul representando 0.3.\nAqui está um exemplo de uso de prompts para ajudar um modelo de IA a gerar uma imagem: obra-prima,(melhorqualidade),altamentedetalhado,ultradetalhado,frio,solo,(1garota),(olhosdetalhados),(olhosdouradosbrilhantes),(cabelolongoleve),expressãoinexpressiva,(mangaslongas),(mangasbufantes),(asasbrancas),brilhohalo,(metalpesado:1.2),(joiasdemetal),calçadocruzado(com corrente),(PombasBrancas:1.2)\n\nSeguindo o exemplo, forneça um conjunto de prompts que detalhe o seguinte conteúdo. Comece os prompts diretamente sem usar linguagem natural para descrevê-los: ",
+                "use_chatgpt_gen_prompts": "Usar ChatGPT para Gerar Prompts",
+                "input_image_desc": "Por favor, insira a descrição da imagem, por exemplo: um gato sentado no topo de um prédio, uma foto muito alta definição, muito autêntica.",
+                "api_config": "Configuração da API",
+                "image_desc": "Descrição da Imagem",
+                "preset": "Predefinição",
+                "ai_one": "Primeira Frase Enviada para a IA",
+                "ai_two": "Segunda Frase Enviada para a IA",
+                "restore_to_default": "Restaurar para Padrão do Sistema",
+                "generate": "Gerar",
+                "generate_result": "Resultado da Geração",
+                "is_required": "{0} é obrigatório!",
+                "is_not_dict": "{0} deve ser um dicionário!",
+                "no_response_from": "Sem resposta de {0}!",
+                "request_error": "Erro de solicitação de {0}!",
+                "response_is_empty": "Resposta de {0} está vazia!",
+                "response_error": "Erro de resposta de {0}!",
+                "install_success": "{0} instalado com sucesso!",
+                "install_failed": "Erro: falha na instalação de {0}!",
+                "translate_text_is_empty": "Texto de tradução está vazio!",
+                "about_desc": "Sobre, Atualizações, Ajuda, Documentação",
+                "version": "Versão",
+                "unknown_version": "Versão Desconhecida",
+                "has_new_version": "Há uma nova versão disponível, por favor atualize",
+                "wiki_desc": "Tutorial de instalação, recursos detalhados, instruções de uso, perguntas frequentes, etc. Veja:",
+                "switch_to_light_theme": "Mudar para Tema Claro",
+                "switch_to_dark_theme": "Mudar para Tema Escuro",
+                "offline_api": "Tradução Offline",
+                "initialize": "Inicializar",
+                "initialize_finished": "Inicialização Concluída!",
+                "initialize_failed": "Falha na Inicialização!",
+                "model_not_initialized": "Modelo Não Inicializado",
+                "model_is_loading": "Modelo está Carregando...",
+                "download_model_desc": "<p>Se o modelo não foi baixado anteriormente, o programa irá automaticamente baixar o modelo do Hugging Face.</p><p>O modelo tem vários gigabytes de tamanho e requer uma conexão de internet de alta velocidade.</p><p>O download pode demorar um pouco, por favor seja paciente. Se o download falhar, por favor reinicialize.</p><p>Você pode verificar logs detalhados e progresso no console.</p><p>Os arquivos do modelo serão baixados para o diretório: extensions\\{{shortName}}\\models</p>",
+                "download_model_desc2": "<p class='common-red'>Se você não tem um bom ambiente de rede ou precisa baixar offline, por favor veja:</p><p><a href='{{docs}}/OfflineTranslation.html' target='_blank'>{{docs}}/OfflineTranslation.html</a></p>",
+                "auto_input_prompt": "Preenchimento automático do prompt quando a página web é carregada",
+                "disabled": "Desabilitado",
+                "last_input_prompt": "Último prompt inserido",
+                "is_break_before_wrap": "Adicionar uma quebra de linha antes da palavra-chave \"BREAK\".<br/>Quando selecionado, uma quebra de linha será automaticamente adicionada.<br/>Ao desmarcar, nenhuma ação será realizada.",
+                "is_break_after_wrap": "Adicionar uma quebra de linha depois da palavra-chave \"BREAK\".<br/>Quando selecionado, uma quebra de linha será automaticamente adicionada.<br/>Ao desmarcar, nenhuma ação será realizada.",
+                "show_panel": "Mostrar Painel",
+                "hide_panel": "Ocultar Painel",
+                "show_group_tags": "Mostrar Tags de Grupo",
+                "hide_group_tags": "Ocultar Tags de Grupo",
+                "tags-copyright": "Fonte de integração de palavras-chave de prompt de 路过银河(Zhihu), autor desconhecido(Google Drive), internet, etc. Obrigado a esses contribuidores altruístas!",
+                "reset_default_color": "Redefinir para Cor Padrão",
+                "clear_color": "Limpar Cor",
+                "tags_color": "Cor das Tags",
+                "keywords_blacklist": "Lista Negra de Palavras-chave",
+                "blacklist_desc": "Palavras-chave definidas como lista negra serão automaticamente filtradas pelo plugin!",
+                "prompt_blacklist_list": "Lista Negra de Prompt",
+                "negative_prompt_blacklist_list": "Lista Negra de Prompt Negativo",
+                "lora_blacklist_list": "Lista Negra de Lora",
+                "lycoris_blacklist_list": "Lista Negra de Lycoris",
+                "embedding_blacklist_list": "Lista Negra de Incorporação",
+                "one_keyword_per_line": "Uma palavra-chave por linha",
+                "Keyword_group": "Grupo de Palavras-chave",
+                "enhance_translation_use_keyword_group": "Aprimorar Tradução com Grupo de Palavras-chave",
+                "enhance_translation_use_Keyword_group_desc": "<p>O arquivo do grupo de palavras-chave está localizado no diretório group_tags.</p><p>Quando esta função está habilitada, os conteúdos no arquivo YAML são priorizados para correspondência de tradução. Se não for encontrada correspondência, a interface de tradução é usada.</p><p>Você pode visitar <a href='https://aiodoc.physton.com/GroupTags.html' target='_blank'>https://aiodoc.physton.com/GroupTags.html</a> para instruções específicas sobre os arquivos no diretório group_tags.</p>",
+                "hotkey_setting": "Configuração de Tecla de Atalho",
+                "left_click_keyword_tag": "Clique Esquerdo na Tag de Palavra-chave",
+                "right_click_keyword_tag": "Clique Direito na Tag de Palavra-chave",
+                "dblclick_keyword_tag": "Duplo Clique na Tag de Palavra-chave",
+                "hover_keyword_tag": "Pairar sobre a Tag de Palavra-chave",
+                "edit_keyword": "Editar Palavra-chave",
+                "disable_enable_keyword": "Desativar/Ativar Palavra-chave",
+                "show_keyword_extend_panel": "Mostrar Painel de Extensão de Palavra-chave",
+                "none": "Nenhum",
+                "add_blacklist": "Adicionar à lista negra",
+                "confirm_add_blacklist": "Você quer adicionar a palavra-chave \"{0}\" à lista negra?",
+                "cancel_confirm_add_blacklist": "Cancelar o diálogo de confirmação ao adicionar à lista negra a partir do painel de expansão da lista de palavras-chave.",
+                "model_name": "Nome do Modelo",
+                "output_name": "Nome de Saída",
+                "filename": "Nome do Arquivo",
+                "filepath": "Caminho do Arquivo",
+                "trained_words": "Palavras-chave Disparadoras",
+                "description": "Descrição",
+                "open_civitai": "Abrir Civitai",
+                "use_keywords": "Usar Palavras-chave",
+                "translate_blacklist_desc": "Definido como palavras proibidas para tradução, o plugin não irá traduzi-las!",
+                "disable_translate_prompt_blacklist_list": "Lista de palavras de prompt para desabilitar tradução",
+                "width": "Largura",
+                "height": "Altura",
+                "move_up": "Mover Para Cima",
+                "move_down": "Mover Para Baixo",
+                "is_remove_lora_before_comma": "Remover a vírgula antes do Lora ou não.<br/>Se selecionado, a saída do Lora será 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'.<br/>Se não selecionado, a saída do Lora será 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
+                "is_remove_lora_after_comma": "Remover a vírgula depois do Lora ou não.<br/>Se selecionado, a saída do Lora será 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'.<br/>Se não selecionado, a saída do Lora será 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
+                "is_use_novel_ai_weight_symbol": "Usar o símbolo de peso do NovelAI.<br/>Marcar isso mudará o símbolo de peso () para {}",
+                "is_remove_before_line_comma": "Remover a vírgula antes de uma quebra de linha.<br/>Se marcado, a saída será \"aaa, bbb<br/>ccc\".<br/>Se desmarcado, a saída será \"aaa, bbb,<br/>ccc\".",
+                "auto_load_webui_prompt": "Carregar automaticamente mudanças de prompt do WebUI.<br/>Quando marcado, o plugin carregará automaticamente e formatará a análise de palavra-chave quando o conteúdo da caixa de entrada de prompt no WebUI mudar.<br/>Quando desmarcado, você precisa clicar manualmente no botão de carregar prompt quando o conteúdo da caixa de entrada de prompt no WebUI mudar.",
+                "load_webui_prompt": "Carregar prompt do WebUI"
+            }
         },
         {
             "code": "pt_PT",
@@ -2336,7 +2536,9 @@
                 "is_remove_lora_before_comma": "Remover a vírgula antes de Lora ou não.<br/>Se selecionado, a saída de Lora será 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'.<br/>Se não selecionado, a saída de Lora será 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_remove_lora_after_comma": "Remover a vírgula depois de Lora ou não.<br/>Se selecionado, a saída de Lora será 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'.<br/>Se não selecionado, a saída de Lora será 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_use_novel_ai_weight_symbol": "Se deve usar o símbolo de peso da NovelAI.<br/>Ao marcar esta opção, o símbolo de peso () será alterado para {}",
-                "is_remove_before_line_comma": "Selecione se deseja remover a vírgula antes de uma quebra de linha.<br/>Se marcado, a saída será \"aaa, bbb<br/>ccc\".<br/>Se desmarcado, a saída será \"aaa, bbb,<br/>ccc\"."
+                "is_remove_before_line_comma": "Selecione se deseja remover a vírgula antes de uma quebra de linha.<br/>Se marcado, a saída será \"aaa, bbb<br/>ccc\".<br/>Se desmarcado, a saída será \"aaa, bbb,<br/>ccc\".",
+                "auto_load_webui_prompt": "Carregar automaticamente alterações no prompt do WebUI.<br/>Quando marcado, o plugin carregará automaticamente e formatará a análise de palavras-chave quando o conteúdo da caixa de entrada do prompt no WebUI for alterado.<br/>Quando desmarcado, é necessário clicar manualmente no botão de carregar o prompt quando o conteúdo da caixa de entrada do prompt no WebUI for alterado.",
+                "load_webui_prompt": "Carregar prompt do WebUI"
             }
         },
         {
@@ -2533,7 +2735,9 @@
                 "is_remove_lora_before_comma": "Удалить запятую перед Lora или нет.<br/>Если выбрано, то вывод Lora будет 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'.<br/>Если не выбрано, то вывод Lora будет 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_remove_lora_after_comma": "Удалить запятую после Lora или нет.<br/>Если выбрано, то вывод Lora будет 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'.<br/>Если не выбрано, то вывод Lora будет 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_use_novel_ai_weight_symbol": "Использовать символ веса NovelAI.<br/>При выборе этой опции символ веса () будет заменен на {}",
-                "is_remove_before_line_comma": "Удалить запятую перед переносом строки или нет.<br/>Если отмечено, то вывод будет \"aaa, bbb<br/>ccc\".<br/>Если не отмечено, то вывод будет \"aaa, bbb,<br/>ccc\"."
+                "is_remove_before_line_comma": "Удалить запятую перед переносом строки или нет.<br/>Если отмечено, то вывод будет \"aaa, bbb<br/>ccc\".<br/>Если не отмечено, то вывод будет \"aaa, bbb,<br/>ccc\".",
+                "auto_load_webui_prompt": "Автоматическая загрузка изменений веб-интерфейса пользовательского интерфейса.<br/>Если отмечено, плагин автоматически загружает и форматирует анализ ключевых слов при изменении содержимого поля ввода подсказки веб-интерфейса.<br/>Если снято, вам нужно вручную нажать кнопку загрузки подсказки при изменении содержимого поля ввода подсказки веб-интерфейса.",
+                "load_webui_prompt": "Загрузить подсказку веб-интерфейса"
             }
         },
         {
@@ -2745,7 +2949,9 @@
                 "is_remove_lora_before_comma": "Eliminar la coma antes de Lora o no.<br/>Si se selecciona, la salida de Lora será 'aaa &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt;, ddd'.<br/>Si no se selecciona, la salida de Lora será 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_remove_lora_after_comma": "Eliminar la coma después de Lora o no.<br/>Si se selecciona, la salida de Lora será 'aaa, &lt;lora:bbb:0.1&gt; &lt;lora:ccc:0.1&gt; ddd'.<br/>Si no se selecciona, la salida de Lora será 'aaa, &lt;lora:bbb:0.1&gt;, &lt;lora:ccc:0.1&gt;, ddd'.",
                 "is_use_novel_ai_weight_symbol": "Si se debe usar el símbolo de peso de NovelAI.<br/>Al marcar esta opción, el símbolo de peso () se cambiará a {}",
-                "is_remove_before_line_comma": "Si desea eliminar la coma antes de un salto de línea.<br/>Si está marcado, la salida será \"aaa, bbb<br/>ccc\".<br/>Si no está marcado, la salida será \"aaa, bbb,<br/>ccc\"."
+                "is_remove_before_line_comma": "Si desea eliminar la coma antes de un salto de línea.<br/>Si está marcado, la salida será \"aaa, bbb<br/>ccc\".<br/>Si no está marcado, la salida será \"aaa, bbb,<br/>ccc\".",
+                "auto_load_webui_prompt": "Cargar automáticamente cambios en el aviso de WebUI.<br/>Cuando está marcado, el complemento cargará automáticamente y formateará el análisis de palabras clave cuando cambie el contenido del cuadro de entrada del aviso en WebUI.<br/>Cuando no está marcado, es necesario hacer clic manualmente en el botón de carga del aviso cuando cambie el contenido del cuadro de entrada del aviso en WebUI.",
+                "load_webui_prompt": "Cargar aviso de WebUI"
             }
         },
         {
