@@ -10,29 +10,31 @@ def gen_openai(prompt, api_config):
     print(api_config)
 
     if LooseVersion(openai.__version__) < LooseVersion('1.0.0'):
-        raise Exception('OpenAI version 1.0.0 or higher is required. Please upgrade your OpenAI package.')
-    
+        raise Exception(
+            'OpenAI version 1.0.0 or higher is required. Please upgrade your OpenAI package.')
+
     print(f'openai client version: {openai.__version__}')
-    
+
     api_key = api_config.get('api_key')
     deployment_name = api_config.get('deployment_name')
     azure_endpoint = api_config.get('azure_endpoint')
 
-    print(f'Azure endpoint: {azure_endpoint}, deployment_name: {deployment_name}, api_key: {api_key}')
-    
+    print(
+        f'Azure endpoint: {azure_endpoint}, deployment_name: {deployment_name}, api_key: {api_key}')
+
     if api_key is None:
         raise Exception('Please provide an API key for OpenAI')
 
     if deployment_name is None:
         raise Exception('Please provide a deployment name for OpenAI')
-    
+
     if azure_endpoint is None:
         raise Exception('Please provide an Azure endpoint for OpenAI')
-    
+
     client = AzureOpenAI(
-        api_key = api_key,  
-        api_version = "2023-12-01-preview",
-        azure_endpoint = azure_endpoint
+        azure_endpoint=azure_endpoint,
+        api_key=api_key,
+        api_version="2024-02-15-preview"
     )
 
     print(f'prompt: {prompt}')
@@ -42,10 +44,12 @@ def gen_openai(prompt, api_config):
         messages=prompt,
         temperature=0.7,
         max_tokens=800,
+        top_p=0.95,
+        frequency_penalty=0,
+        presence_penalty=0,
         stop=None,
         timeout=60
     )
 
     content = completion.choices[0].message.content
     return content
-
